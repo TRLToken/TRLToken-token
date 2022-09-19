@@ -467,7 +467,7 @@ contract TRLToken is ERC20, Ownable {
     }
 
     // Base taxes
-    CustomTaxPeriod private _base = CustomTaxPeriod('base',0,0,1,1,4,4,1,1,0,2);
+    CustomTaxPeriod private _base = CustomTaxPeriod('base',0,0,1,1,1,1,4,4,0,2);
 
     uint256 public launchTokens;
     uint256 private _launchStartTimestamp;
